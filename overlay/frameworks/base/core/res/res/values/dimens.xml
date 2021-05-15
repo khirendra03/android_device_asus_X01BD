@@ -16,15 +16,23 @@
 */
 -->
 <resources>
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height">81.0px</dimen>
-
-    <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">103px</dimen>
 	
+    <!-- Radius of the software rounded corners at the top of the display in its natural
+        orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_top">90px</dimen>
+
+    <!-- Radius of the software rounded corners at the bottom of the display in its natural
+        orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_bottom">90px</dimen>
+
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height_portrait">81px</dimen>
+    <dimen name="status_bar_height_landscape">81px</dimen>
+
     <!-- Misc -->
     <dimen name="config_dialogCornerRadius">10dip</dimen>
-    <dimen name="config_buttonCornerRadius">5dip</dimen>
+	<dimen name="config_buttonCornerRadius">5dip</dimen>
     <dimen name="dialog_corner_radius">10dip</dimen>
     <dimen name="config_progressBarCornerRadius">1000dip</dimen>
+
 </resources>
