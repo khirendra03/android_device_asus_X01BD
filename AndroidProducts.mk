@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_X01BD.mk
+    $(LOCAL_DIR)/spark_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_X01BD-user \
-    voltage_X01BD-userdebug \
-    voltage_X01BD-eng
+    spark_X01BD-user \
+    spark_X01BD-userdebug \
+    spark_X01BD-eng
