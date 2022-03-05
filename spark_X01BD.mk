@@ -15,6 +15,9 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Gapps Config
 TARGET_GAPPS_ARCH := arm64
 
