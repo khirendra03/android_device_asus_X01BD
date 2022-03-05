@@ -29,6 +29,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 
 # spark Build Type
 spark_BUILD_TYPE := UNOFFICIAL
+COMPILE_GCC := true
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
