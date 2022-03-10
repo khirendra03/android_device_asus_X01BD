@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_X01BD.mk
+    $(LOCAL_DIR)/evolution_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_X01BD-user \
-    spark_X01BD-userdebug \
-    spark_X01BD-eng
+    evolution_X01BD-user \
+    evolution_X01BD-userdebug \
+    evolution_X01BD-eng

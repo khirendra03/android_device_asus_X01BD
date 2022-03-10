@@ -9,8 +9,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common sparkOS stuff
-$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+# Inherit some common evolutionOS stuff
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -18,24 +18,14 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
-# Gapps Config
-TARGET_GAPPS_ARCH := arm64
-
-# Live Wallpaper
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-
-# Google Recorder
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-
-# spark Build Type
-spark_BUILD_TYPE := UNOFFICIAL
-COMPILE_GCC := true
+# build tag
+EVO_BUILD_TYPE := CUSTOM
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := spark_X01BD
+PRODUCT_NAME := evolution_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Asus Zenfone Max Pro M2
