@@ -33,3 +33,6 @@ TARGET_USES_DRM_PP := true
 
 # duplicate rules
 BUILD_BROKEN_DUP_RULES := true
+
+# missing modules
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
