@@ -46,7 +46,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-asus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=ASUS_X01BD_1 \
     PRODUCT_NAME=WW_X01BD \
-    PRIVATE_BUILD_DESC="redfin-user 12 SQ1A.220105.002 7961164 release-keys"
+    PRIVATE_BUILD_DESC="raven-user 12 SP2A.220405.004 8233519 release-keys"
 
 # Build fingerprint
-BUILD_FINGERPRINT="google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys"
+BUILD_FINGERPRINT="google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys"
+
