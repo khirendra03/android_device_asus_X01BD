@@ -33,3 +33,6 @@ TARGET_USES_DRM_PP := true
 
 # duplicate rules
 BUILD_BROKEN_DUP_RULES := true
+
+# selenux neverallow
+SELINUX_IGNORE_NEVERALLOWS := true
