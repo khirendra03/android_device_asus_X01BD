@@ -13,13 +13,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Bootanimation
-TARGET_BOOT_ANIMATION_RES := 2160
+TARGET_BOOT_ANIMATION_RES := 1080
 
-# Face Unlock
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# Voltage Build Type
-VOLTAGE_BUILD_TYPE := OFFICIAL
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
